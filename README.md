@@ -19,5 +19,10 @@ $ pip install -r requirements.txt
 $ ./getfaces.py -d <path to Lightroom DB File> -o <output path> -n <Name of the person> [-ee extension1, extension2,... -cf <clipping factor>]
 ```
 
+Example: 
+```shell
+$ py getfaces.py -d "C:\Users\...\Lightroom\lightroom.lrcat" -o "./export" -n "John" -ee "nef,dng" -cf 80 -sf "C:\Users\...\images\specific day" -fs "True"
+```
+
 <h3>License</h3>
 <strong>exportlightroomfaces</strong> is released under the [MIT License](https://github.com/ThomasMoritz/exportlightroomfaces/blob/master/LICENSE).
